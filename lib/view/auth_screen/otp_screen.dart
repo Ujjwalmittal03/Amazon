@@ -18,6 +18,7 @@ class OTPScreen extends StatefulWidget {
 
 class _OTPScreenState extends State<OTPScreen> {
   TextEditingController otpController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     final height = MediaQuery.of(context).size.height;
@@ -85,7 +86,7 @@ class _OTPScreenState extends State<OTPScreen> {
                 controller: otpController,
                 decoration: InputDecoration(
                   hintText: 'Enter OTP',
-                  hintStyle: textTheme.bodySmall,
+                  hintStyle: textTheme.bodyMedium,
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(5),
                     borderSide: BorderSide(

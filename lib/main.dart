@@ -2,7 +2,7 @@
 import 'package:amazon/controller/provier/auth_provider/auth_provider.dart';
 import 'package:amazon/utils/theme.dart';
 import 'package:amazon/view/auth_screen/auth_screen.dart';
-import 'package:amazon/view/auth_screen/otp_screen.dart';
+//import 'package:amazon/view/auth_screen/otp_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -31,7 +31,7 @@ class Amazon extends StatelessWidget {
       child: MaterialApp(
         theme: theme,
         // home: OTPScreen(
-        // mobileNumber: '+910123456789',
+        // mobileNumber: '+911234567890',
         //),
         home: AuthScreen(),
         debugShowCheckedModeBanner: false,
